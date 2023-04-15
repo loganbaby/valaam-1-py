@@ -5,7 +5,7 @@ valaam_map = folium.Map(
     zoom_start=12
 )
 
-folium.Marker(location=[61.36699446527614, 30.93333291785637], popup=folium.Popup(folium.IFrame(html="""<img src='img/valaam-1.jpg'>""", width=600, height=200)), tooltip='Жмякни на меня!', icon=folium.Icon(color='blue')).add_to(valaam_map)
+folium.Marker(location=[61.36699446527614, 30.93333291785637], popup='Валаам. Центр архипелага', tooltip='Жмякни на меня!', icon=folium.Icon(color='blue')).add_to(valaam_map)
 
 folium.Marker(location=[61.38943181703889, 31.006380133676704], popup="Казанский скит", tooltip='Жмякни на меня!', icon=folium.Icon(color='blue')).add_to(valaam_map)
 
@@ -17,4 +17,4 @@ folium.Marker(location=[61.389197487036135, 30.882658452240868], popup="Церк
 
 folium.Marker(location=[61.3897621859065, 30.943626909478958], popup="Валаамский Спасо-Преображенский монастырь", tooltip='Жмякни на меня!', icon=folium.Icon(color='blue')).add_to(valaam_map)
 
-valaam_map.save("map1.html")
+valaam_map.save("index.html")

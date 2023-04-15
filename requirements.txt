@@ -3,3 +3,5 @@ requests
 branca
 pandas
 geopandas
+osmnx
+networkx

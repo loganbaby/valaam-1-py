@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8fc1cd27438e5ef31110b08eb5c779bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8fc1cd27438e5ef31110b08eb5c779bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8fc1cd27438e5ef31110b08eb5c779bb = L.map(
+                "map_8fc1cd27438e5ef31110b08eb5c779bb",
+                {
+                    center: [61.36699446527614, 30.93333291785637],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_54d91160e2d034448d1d79e5b90d0e40 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var marker_a64295f91379479ea83fc256d7cc6180 = L.marker(
+                [61.36699446527614, 30.93333291785637],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_fd05e6286992124a35ea72ea55415eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a64295f91379479ea83fc256d7cc6180.setIcon(icon_fd05e6286992124a35ea72ea55415eec);
+        
+    
+        var popup_13eabd962ae1032726aa78452ecefaf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a258a3df26036fb824f532d550d61345 = $(`<div id="html_a258a3df26036fb824f532d550d61345" style="width: 100.0%; height: 100.0%;">Валаам. Центр архипелага</div>`)[0];
+                popup_13eabd962ae1032726aa78452ecefaf2.setContent(html_a258a3df26036fb824f532d550d61345);
+            
+        
+
+        marker_a64295f91379479ea83fc256d7cc6180.bindPopup(popup_13eabd962ae1032726aa78452ecefaf2)
+        ;
+
+        
+    
+    
+            marker_a64295f91379479ea83fc256d7cc6180.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f13b45055743c8e6f0fe23c0c3cbbcd7 = L.marker(
+                [61.38943181703889, 31.006380133676704],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_6a3bf3487028661c456841bf4ebcbaef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f13b45055743c8e6f0fe23c0c3cbbcd7.setIcon(icon_6a3bf3487028661c456841bf4ebcbaef);
+        
+    
+        var popup_4f42516f0506d6b53ae477e3c9c15d0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c8cf8de56bcb4fa5fe3487132375ac0 = $(`<div id="html_5c8cf8de56bcb4fa5fe3487132375ac0" style="width: 100.0%; height: 100.0%;">Казанский скит</div>`)[0];
+                popup_4f42516f0506d6b53ae477e3c9c15d0d.setContent(html_5c8cf8de56bcb4fa5fe3487132375ac0);
+            
+        
+
+        marker_f13b45055743c8e6f0fe23c0c3cbbcd7.bindPopup(popup_4f42516f0506d6b53ae477e3c9c15d0d)
+        ;
+
+        
+    
+    
+            marker_f13b45055743c8e6f0fe23c0c3cbbcd7.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_041cca4837474dc9f936ddc16cad28b9 = L.marker(
+                [61.372534279452694, 30.9019985431249],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_82100a98bba6faf0a32d63a057e5f9eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_041cca4837474dc9f936ddc16cad28b9.setIcon(icon_82100a98bba6faf0a32d63a057e5f9eb);
+        
+    
+        var popup_bc34a0a2743d5d1b3b7198303dada262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28d83c8549e01d27331d518ccb4725bd = $(`<div id="html_28d83c8549e01d27331d518ccb4725bd" style="width: 100.0%; height: 100.0%;">Вознессенская часовня</div>`)[0];
+                popup_bc34a0a2743d5d1b3b7198303dada262.setContent(html_28d83c8549e01d27331d518ccb4725bd);
+            
+        
+
+        marker_041cca4837474dc9f936ddc16cad28b9.bindPopup(popup_bc34a0a2743d5d1b3b7198303dada262)
+        ;
+
+        
+    
+    
+            marker_041cca4837474dc9f936ddc16cad28b9.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9968c111420077a44f8d8562f9437634 = L.marker(
+                [61.37355127198035, 30.89114922384849],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_d7fb97debdc93c1d3d0ce81db8cfcb0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9968c111420077a44f8d8562f9437634.setIcon(icon_d7fb97debdc93c1d3d0ce81db8cfcb0e);
+        
+    
+        var popup_09dbb51bee3a9ee0674a175d5aa4d80c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278eb039296db026ec9c0e0e8c1a596b = $(`<div id="html_278eb039296db026ec9c0e0e8c1a596b" style="width: 100.0%; height: 100.0%;">Воскресенский скит</div>`)[0];
+                popup_09dbb51bee3a9ee0674a175d5aa4d80c.setContent(html_278eb039296db026ec9c0e0e8c1a596b);
+            
+        
+
+        marker_9968c111420077a44f8d8562f9437634.bindPopup(popup_09dbb51bee3a9ee0674a175d5aa4d80c)
+        ;
+
+        
+    
+    
+            marker_9968c111420077a44f8d8562f9437634.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c87bcb38a26758dec514e198e615c608 = L.marker(
+                [61.389197487036135, 30.882658452240868],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_2429775854415f85b99f15b5b8467f11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c87bcb38a26758dec514e198e615c608.setIcon(icon_2429775854415f85b99f15b5b8467f11);
+        
+    
+        var popup_d1fc196df458ffc23d9ab9c5fa84e6ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92a358f44027511dd224827cf25ec255 = $(`<div id="html_92a358f44027511dd224827cf25ec255" style="width: 100.0%; height: 100.0%;">Церковь Иоанна Предтечи</div>`)[0];
+                popup_d1fc196df458ffc23d9ab9c5fa84e6ac.setContent(html_92a358f44027511dd224827cf25ec255);
+            
+        
+
+        marker_c87bcb38a26758dec514e198e615c608.bindPopup(popup_d1fc196df458ffc23d9ab9c5fa84e6ac)
+        ;
+
+        
+    
+    
+            marker_c87bcb38a26758dec514e198e615c608.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09441304fc9be0410577409208ea90f2 = L.marker(
+                [61.3897621859065, 30.943626909478958],
+                {}
+            ).addTo(map_8fc1cd27438e5ef31110b08eb5c779bb);
+        
+    
+            var icon_1f8dd60a0389de382b5230471a479894 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09441304fc9be0410577409208ea90f2.setIcon(icon_1f8dd60a0389de382b5230471a479894);
+        
+    
+        var popup_7604d1d3f6a06680d0dc3882e4240db6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8972986691561a931f661f0a748f042 = $(`<div id="html_a8972986691561a931f661f0a748f042" style="width: 100.0%; height: 100.0%;">Валаамский Спасо-Преображенский монастырь</div>`)[0];
+                popup_7604d1d3f6a06680d0dc3882e4240db6.setContent(html_a8972986691561a931f661f0a748f042);
+            
+        
+
+        marker_09441304fc9be0410577409208ea90f2.bindPopup(popup_7604d1d3f6a06680d0dc3882e4240db6)
+        ;
+
+        
+    
+    
+            marker_09441304fc9be0410577409208ea90f2.bindTooltip(
+                `<div>
+                     Жмякни на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
